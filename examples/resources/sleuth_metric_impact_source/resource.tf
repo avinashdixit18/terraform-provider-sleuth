@@ -20,6 +20,7 @@ resource "sleuth_metric_impact_source" "cloudwatch_rds_cpu" {
     "stacked": false,
     "region": "us-east-1",
     "stat": "Average",
+     "stat": "Average",
     "period": 300
   })
   less_is_better = true
